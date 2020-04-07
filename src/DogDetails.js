@@ -15,7 +15,7 @@ class DogDetails extends Component {
               <h2 className='card-subtitle text-muted'>{thisDog.age} years old</h2>
             </div>
             <ul className='list-group list-group-flush'>
-              {thisDog.facts.map((fact, i )=> 
+              {thisDog.facts.map((fact, i) => 
                 <li className='list-group-item' key={i}>{fact}</li>
               )}
             </ul>
